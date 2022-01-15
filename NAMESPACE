@@ -1,1 +1,5 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "arrows", "barplot")
+importFrom("stats", "sd", "shapiro.test", "t.test", "var.test",
+           "wilcox.test")
+importFrom("utils", "read.csv")

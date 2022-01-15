@@ -1,13 +1,15 @@
 Package: tsmt
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Two Sample Mean Test
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Takashi Wakebe
+Maintainer: Takashi Wakebe <twakebe.tw@gmail.com>
+Description: Run two sample mean test.  Package run test for equality of 
+    variance and Shapiro-Wilk test.  Test result may be two sample t test, 
+    Welch's test or Wilcoxon's rank sum test.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/Wake5417/tsmt
 BugReports: https://github.com/Wake5417/tsmt/issues
+RoxygenNote: 7.1.2
